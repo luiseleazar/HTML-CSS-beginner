@@ -1,0 +1,25 @@
+.main-nav {
+    margin-top: 10px;
+    list-style: none;
+    padding-left: 0;
+    background-color: rgb(21, 3, 63);
+}
+.main-nav__item{
+    display: inline;
+}
+.main-nav__item a{
+    color: white;
+    padding: 5px;
+    border: 2px;
+    text-decoration: none;
+    font-family: 'Verdana'
+}
+.main-nav__item a:hover{
+    color:rgb(250, 129, 108);
+}
+.main-nav__item a:active{
+    color:rgb(128, 0, 0);
+}
+.main-nav__item a::after{
+    content: " | ";
+}

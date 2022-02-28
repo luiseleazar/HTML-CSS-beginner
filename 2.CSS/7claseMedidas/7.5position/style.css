@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+main{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(237, 237, 243);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: seashell;
+    font-size: 1.5rem;
+
+}
+#uno{
+    width: 50vw;
+    height: 50vh;
+    background-color: rgb(30, 6, 70);
+    border-radius: 10px;
+    position: relative;
+    top: 20vh;
+    left:25vw
+}
+#titulo{
+    width: 10vw;
+    height: 5vh;
+    background-color: rgb(34, 39, 105);
+    border-radius: 10px;
+    position: absolute;
+    top: 17.5vh;
+    left: 45vw;
+    text-align: center;    
+}
+#subtitulo{
+    width: 20vw;
+    min-height: 20vh;
+    background-color: seagreen;
+    border-radius: 10px;
+    position: absolute;
+    top: 40vh;
+    left: 40vw;
+    text-align: center;
+    margin: auto;
+}
+ul {
+    list-style-type: none;
+}

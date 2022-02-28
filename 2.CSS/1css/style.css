@@ -1,0 +1,17 @@
+/*Por tipo de equiqueta*/
+p {
+    color: rgb(63, 63, 131);
+    font-size: 30px;
+}
+
+/*Por clase*/
+.parrafo {
+    color: rgb(114, 0, 129);
+    font-size: 30px;
+}
+
+/*por ID*/
+#texto {
+    color:rgb(129, 4, 4);
+    font-size: 24px;
+}
